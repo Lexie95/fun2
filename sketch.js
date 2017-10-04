@@ -1,6 +1,6 @@
 function setup() {
   createCanvas(1080,1920);
-  background(100);
+  background(50);
   angleMode(DEGREES);
   
   frameRate(400);
