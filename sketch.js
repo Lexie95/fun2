@@ -1,6 +1,6 @@
 function setup() {
   createCanvas(1080,1920);
-  background(200);
+  background(100);
   angleMode(DEGREES);
   
   frameRate(400);
@@ -17,7 +17,7 @@ function draw() {
   fill(lerpColor(color(92,0,26,10), color(6,94,79,10), frameCount/200));
   textSize(32+frameCount);
   text("*", 10, 30);
-  //if (frameCount == 240) {
-  //noLoop();
-  //}
+  if (frameCount == 1000) {
+  noLoop();
+  }
 }
